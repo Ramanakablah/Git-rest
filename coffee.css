@@ -38,7 +38,7 @@
         text-decoration: underline;
         font-weight: bold;
     }
-    ul{
+    #navbar ul{
         list-style-type:none;
         display: flex;
         padding: 0px 34px;
@@ -47,6 +47,7 @@
     }
     li{
         padding: 0px 34px;
+        list-style: none;
     }
     h1{
         font-size: 4rem;
@@ -370,3 +371,190 @@
         top: 276px;
         left: 672px
     } 
+    header{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 2.1rem;
+    }
+   #found header{
+        margin-top: 50px;
+        text-align: left;
+        font-size: 2.1rem;
+        padding: 2px 20px;
+    }
+    #body
+    {
+        display: flex;
+        margin-bottom: 100px;
+        justify-content: space-evenly;
+        margin-top: 140px;
+        flex-wrap: wrap;
+    }
+    #conta1{
+        width: 45%;
+        height: 450px;
+        background-image: url('https://i.ndtvimg.com/i/2016-11/coffee_620x350_61480315588.jpg');
+        background-size: cover;
+        background-position-y: 0px;
+        border: solid 15px goldenrod;
+        border-radius: 20px;
+    }
+    #conta1 ul{
+        text-align: left;
+        font-size: 2.1rem;
+    }
+    #conta1 ul li{
+        margin-top: 10px;
+        color: white;
+    }
+    #conta2{
+        height: 450px;
+        width: 45%;
+        background-color: blue;
+        border: solid 15px goldenrod;
+        border-radius: 20px;
+    }
+    #conta2 #head{
+        font-size: 40px;
+        margin-left:30px;
+        color: yellow;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    #body #cont1 li{
+        color: rgb(0, 0, 255);
+        padding-top: 38px;
+        font-weight: bold;
+        font-size: 25px;    
+    }
+    #form{
+        font-size: 25px;
+        margin-left: 60px;
+        margin-top: 5px;
+    }
+    #conta2 input{
+        border-radius: 20px;
+        font-size: 18px;
+        font-family: 'Playfair Display', serif;
+        padding-left: 10px;
+    }
+    #conta2 select{
+        font-size: 18px;
+        font-family: 'Playfair Display', serif;
+    }
+    #btn{
+        padding: 8px;
+        background-color: black;
+        color: yellow;
+        border: 2px solid yellow;
+        border-radius: 20px;
+        margin-top: 39px;
+        font-size: 15px;
+        margin-left: 60px;
+        margin-bottom: 5px;
+    }
+    #btn:hover{
+        font-weight: bold;
+        background-color: yellow;
+        color: black;
+        border: 2px solid yellow;
+        cursor: pointer;
+    }
+    #end{
+        margin-top: 150px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    #section{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    #cont2{
+        width: 50%;
+    } 
+    #sectionhead
+    {   color: white;
+        font-size: 4rem;
+        font-weight: bold;
+        margin: auto;
+        text-align: center;
+    }
+    #sectionmat{
+        color: white;
+        text-align: center;
+        margin: 20px 5px;
+        margin-bottom: 25px;
+    }
+    #even{
+        border: 2px solid red;
+        padding: 5px 10px;  
+        margin-top: 50px;
+        margin-bottom: 20px; 
+        color: orange;
+        background-color: rgb(255, 247, 232);
+        font-size: 20px;
+        border-radius: 20px;
+    }
+    #even #head{
+        font-size: 1.9rem;
+        font-weight: bold;
+    }
+    #even img{
+        height: 20px;
+        width: 20px;
+    }
+    #end
+    { color: white;
+        text-align: center;
+    }
+    #Delivery{
+        background-image: url("https://www.agiboo.com/wp-content/uploads/2018/03/mike-kenneally-tNALoIZhqVM-unsplash-1024x672.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #findus{
+        display: flex;
+        justify-content: space-evenly;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlNCQ4v1bJIPI-Zyuhz8MZ8SCV89DEANfXGRuHAmJZF3bex2VF9BGkGJV2dGdCRoA8yCc&usqp=CAU");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        margin: 30px 0px;
+        padding: 50px 0px;
+        color: black;
+    }
+    #findus #found{
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+    }
+    #map{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #found a{
+        text-decoration: none;
+        color: black;
+    }
+  #map img {
+   width: 300px;
+   height: 300px;
+   border: solid 9px white;
+   box-shadow: 8px 8px 20px 5px black;
+  }  
+footer{
+    background-color: orange;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer #phone{
+    text-align: center;
+}
